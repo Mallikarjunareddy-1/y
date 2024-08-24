@@ -1,0 +1,52 @@
+
+body{
+    margin:0%;
+}
+img{
+    width:50px;
+}
+#checkbox{
+    display: none;
+}
+#checkbox:checked+.container{
+    transform: translateX(300px) translateY(0px)
+}
+.container{
+    width:300px;
+    height:400px;
+    background-color: coral;
+    position: absolute;
+    left:-300px;
+    transition:all 1s ease;
+    border-radius: 0px 10px 10px 0px;
+}
+
+h1{
+    margin: 35px;
+    border: 2px solid crimson;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.h1:hover{
+    background-color: lawngreen;
+    color: darkviolet;
+    text-shadow: 2px 2px 4px magenta;
+}
+.h2:hover{
+    background-color: greenyellow;
+    color: chocolate;
+    text-shadow: 2px 2px 4px darkturquoise;
+}
+.h3:hover{
+    background-color:brown;
+    color: dodgerblue;
+    text-shadow: 2px 2px 4px tomato;
+}
+.h4:hover{
+    background-color: darkcyan;
+    color:burlywood;
+    text-shadow: 2px 2px 4px cornflowerblue;
+}
